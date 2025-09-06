@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;somaInteriros&apos; to &apos;ExercicioAreas/src&apos;&#x0D;&#x0A;- Original project: &apos;somaInteriros&apos;&#x0D;&#x0A;- Destination element: &apos;ExercicioAreas/src&apos;&#x0D;&#x0A;- Original element: &apos;somaInteriros/src/somaInteriros&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=ExercicioAreas/src" element1="/src&lt;somaInteriros" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1721777801976" version="1.0"/>
+</session>

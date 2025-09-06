@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;OpCumulativo&apos; to &apos;OpCumulativoMain&apos;&#x0D;&#x0A;- Original project: &apos;EstruturaCondicional&apos;&#x0D;&#x0A;- Original element: &apos;OpCumulativo&apos;&#x0D;&#x0A;- Renamed element: &apos;OpCumulativoMain&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;OpCumulativo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{OpCumulativo.java[OpCumulativo" matchStrategy="1" name="OpCumulativoMain" qualified="false" references="true" similarDeclarations="false" stamp="1721774472348" textual="false" version="1.0"/>
+</session>

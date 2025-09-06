@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;areasPolignos&apos; to &apos;ExercicioAreas/src&apos;&#x0D;&#x0A;- Original project: &apos;areasPolignos&apos;&#x0D;&#x0A;- Destination element: &apos;ExercicioAreas/src&apos;&#x0D;&#x0A;- Original element: &apos;areasPolignos/src/areasPolignos&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=ExercicioAreas/src" element1="/src&lt;areasPolignos" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1721777815724" version="1.0"/>
+</session>

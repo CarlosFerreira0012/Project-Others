@@ -1,0 +1,43 @@
+package service;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.ArrayList;
+import java.util.List;
+
+class Cofrinho<coin> {
+    private List<coin> listaMoedas = new ArrayList<>();
+
+    public void adicionar(Coin moeda) {
+        listaMoedas.add(moeda);
+        System.out.println("Moeda adicionada: ");
+        moeda.info();
+    }
+
+    public void remover(Coin moeda) {
+        if (listaMoedas.remove(moeda)) {
+            System.out.println("Moeda removida.");
+        } else {
+            System.out.println("Moeda não encontrada no cofrinho.");
+        }
+    }
+
+    public void listagemMoedas() {
+        if (listaMoedas.isEmpty()) {
+            System.out.println("O cofrinho está vazio!");
+        } else {
+            System.out.println("\nMoedas no cofrinho:");
+            for (Coin moeda : listaMoedas) {
+                moeda.info();
+            }
+        }
+    }
+
+    public double totalConvertido() {
+        BigDecimal total = BigDecimal.ZERO;
+        for (Coin moeda : listaMoedas) {
+            total = total.add(BigDecimal.valueOf(moeda.converter()));
+        }
+        return total.setScale(2, RoundingMode.HALF_UP).doubleValue();
+    }
+}
